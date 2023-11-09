@@ -57,12 +57,14 @@ export const CartItem = ({ imgsrc, name, price, qunty, id ,increment,decrement,d
       <p>$ {price}</p>
     </article>
     <div className="quantity">
-      <button className="btn" onClick={() => increment(id)}>
-        +
-      </button>
-      <p>{qunty}</p>
+    
+     
       <button className="btn" onClick={() => decrement(id)}>
         -
+      </button>
+      <p>{qunty}</p>
+      <button className="btn" onClick={() => increment(id)}>
+        +
       </button>
     </div>
     <AiFillDelete className="icon" onClick={() => deleteHandler(id)} />
