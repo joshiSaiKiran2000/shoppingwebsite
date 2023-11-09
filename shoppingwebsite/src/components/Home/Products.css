@@ -1,0 +1,18 @@
+
+
+.product-cart{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+}
+
+.product-img{
+    width: 100px;
+    /* height: 100px */
+}
