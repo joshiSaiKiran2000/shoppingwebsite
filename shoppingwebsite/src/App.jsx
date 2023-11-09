@@ -6,7 +6,6 @@ import Login from './components/Login';
 import SignUp from './components/SignUp';
 import About from './components/About';
 import Contact from './components/Contact';
-import Blog from './components/Blog';
 import { Route, Routes,BrowserRouter as Router } from 'react-router-dom';
 import {Toaster} from 'react-hot-toast'
 const App = () => {
@@ -22,7 +21,6 @@ const App = () => {
                 <Route exact path="/signup" element={<div><SignUp /></div>}></Route>
                 <Route exact path="/about" element={<div><About /></div>}></Route>
                 <Route exact path="/contact" element={<div><Contact /></div>}></Route>
-                <Route exact path="/blog" element={<div><Blog /></div>}></Route>
             </Routes>
             <Toaster />
         </Router>

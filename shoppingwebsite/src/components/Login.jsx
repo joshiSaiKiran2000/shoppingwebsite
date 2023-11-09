@@ -78,23 +78,24 @@ const Login = (props) => {
             <h1>Login to Shop</h1>
             <form action="">
               <div className="email">
-                <label htmlFor="email">UserName :</label>
+                <label htmlFor="email">UserName : mor_2314</label>
                 <input
                   type="text"
                   name="text"
                   value={userName}
-                  placeholder="Enter your UserName ..."
+                  placeholder="UserName"
                   required
                   onChange={(e) => setUserName(e.target.value)}
                 />
               </div>
 
               <div className="password">
-                <label htmlFor="password">Password :</label>
+                <label htmlFor="password">Password : 83r5^_</label>
                 <input
                   type="password"
                   name="password"
                   value={password}
+                  placeholder="password"
                   required
                   onChange={(e) => setPassword(e.target.value)}
                 />

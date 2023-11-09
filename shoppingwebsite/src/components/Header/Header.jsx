@@ -11,8 +11,7 @@ const Header = () => {
           <h3>
             <Link to={'/'} style={{textDecoration:'none'}}>
            
-            Shopping Hub
-          
+            Fashion Flair     
             </Link>
           </h3>
           <Navbar />

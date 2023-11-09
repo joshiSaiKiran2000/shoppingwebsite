@@ -62,17 +62,11 @@ const Navbar = () => {
           <Link to={"/contact"}>
             <li className="nav-list-item">
               <a href="#" className="link nav-link">
-                Contact
+                Contact Us
               </a>
             </li>
           </Link>
-          <Link to={"/blog"}>
-            <li className="nav-list-item">
-              <a href="#" className="link nav-link">
-                Blog
-              </a>
-            </li>
-          </Link>
+          
           <Link to={"/cart"}>
             <li className="nav-list-item cart">
               <button className="shopping-cart-icon">
