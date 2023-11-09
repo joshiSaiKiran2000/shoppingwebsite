@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { TailSpin } from "react-loader-spinner";
+
 import axios from "axios";
 import "./Home.css";
 import { toast } from "react-hot-toast";
@@ -44,7 +46,9 @@ const Home = () => {
       {!token ? (
         <Navigate to="/login" replace={true} />
       ) : isLoading ? (
-        <h1>Loading...</h1>
+        <div className="loader">
+           <TailSpin color="black" radius={"8px"} />
+        </div>
       ) : error ? (
         <h1>No items Found</h1>
       ) : (

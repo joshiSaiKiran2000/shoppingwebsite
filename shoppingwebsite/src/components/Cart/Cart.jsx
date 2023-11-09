@@ -3,7 +3,7 @@ import './Cart.css'
 import './mediaQuery.css'
 import { AiFillDelete } from "react-icons/ai";
 import { useDispatch, useSelector } from "react-redux";
-import { addToCart, decrement, deleteFromCart, calculatePrice,increment} from '../../store/reducers'
+import {  decrement, deleteFromCart, calculatePrice,increment} from '../../store/reducers'
 const Cart = () => {
   const {cartItems,subTotal, tax, shipping, total }=useSelector((state)=>state.cart);
   console.log("carts items are :"+cartItems.length);

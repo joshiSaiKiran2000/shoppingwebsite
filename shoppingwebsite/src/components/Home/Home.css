@@ -50,3 +50,9 @@
 .product_card button:active{
     transform: scale(1);
 }
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

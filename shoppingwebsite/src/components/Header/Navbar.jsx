@@ -85,8 +85,7 @@ const Navbar = () => {
             <li className="nav-list-item">
               {flag ? (
                 <button
-                  //   style={{ cursor: "not-allowed" }}
-                  //   disabled={true}
+                 
                   className="btn"
                   onClick={onLogout}
                 >
@@ -94,8 +93,7 @@ const Navbar = () => {
                 </button>
               ) : (
                 <button
-                  //   style={{ cursor: "not-allowed" }}
-                  //   disabled={true}
+                  
                   className="btn"
                 >
                   SignUp

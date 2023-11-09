@@ -10,9 +10,9 @@ const Header = () => {
         <header className='header '>
           <h3>
             <Link to={'/'} style={{textDecoration:'none'}}>
-            {/* <a href="#" className="logo"> */}
+           
             Shopping Hub
-            {/* </a> */}
+          
             </Link>
           </h3>
           <Navbar />
